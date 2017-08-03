@@ -1,0 +1,92 @@
+{
+    "codes": [
+        {
+            "code": "ADL1000022",
+            "desc": "Open-Solving"
+        },
+        {
+            "code": "ADL1000023",
+            "desc": "Closed-Closed"
+        },
+        {
+            "code": "ADL1000377",
+            "desc": "Open-Cancelled"
+        },
+        {
+            "code": "ADL1000378",
+            "desc": "Open-Completed"
+        },
+        {
+            "code": "ADL1000379",
+            "desc": "Closed-Awaiting Review"
+        },
+        {
+            "code": "ADL1000380",
+            "desc": "Closed-Invoice Approved"
+        },
+        {
+            "code": "ADL1000381",
+            "desc": "Closed-Invoice Interfaced"
+        },
+        {
+            "code": "ADL1000503",
+            "desc": "Open-Dispatched to SvcPro"
+        },
+        {
+            "code": "ADL1000560",
+            "desc": "Closed-Re-Assigned"
+        },
+        {
+            "code": "ADL1000561",
+            "desc": "Closed-Cancelled"
+        },
+        {
+            "code": "ADL1000631",
+            "desc": "Closed-Invoice Entered"
+        },
+        {
+            "code": "ADL1000640",
+            "desc": "Open-Awaiting Ins. Update"
+        },
+        {
+            "code": "ADL1000675",
+            "desc": "Open-On Hold"
+        },
+        {
+            "code": "ADL1000689",
+            "desc": "Open-Pending Approval"
+        },
+        {
+            "code": "ADL1000694",
+            "desc": "Open-In Progress"
+        },
+        {
+            "code": "ADL1000779",
+            "desc": "Closed-Invoice Pending"
+        },
+        {
+            "code": "ADL1000789",
+            "desc": "Closed-Accounting Use Only"
+        },
+        {
+            "code": "ADL1000791",
+            "desc": "Closed-Invoice Web Updated"
+        },
+        {
+            "code": "ADL1000792",
+            "desc": "Closed-Invoice Web Approved"
+        },
+        {
+            "code": "ADL1000796",
+            "desc": "Open-Invoice Pending"
+        },
+        {
+            "code": "ADL1000812",
+            "desc": "Open-Working to Resolve"
+        },
+        {
+            "code": "ADL1000827",
+            "desc": "Closed-Invoice Received for Payment"
+        }
+    ]
+}

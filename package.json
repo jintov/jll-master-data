@@ -1,0 +1,22 @@
+{
+  "name": "master-data-services",
+  "version": "1.0.0",
+  "description": "Rest Services for master-data",
+  "main": "node index.js DEV",
+  "scripts": {
+    "start": "node server.js DEV",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "morgan": "^1.8.0",
+    "winston": "^2.3.1",
+    "underscore": "^1.8.3",
+    "swaggerize-ui": "^1.0.1"
+  },
+  "author": "anmolhanda@mindtree.com",
+  "license": "ISC"
+}

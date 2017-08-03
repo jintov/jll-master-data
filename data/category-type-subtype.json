@@ -1,0 +1,310 @@
+[
+  {
+    "categoryCode": "UDL1059121",
+    "categoryDesc": "Facility Service Request",
+    "searchKey": "facility_service_request",
+    "children": [
+      {
+        "typeCode": "UDL1059140",
+        "typeDesc": "Doors",
+        "searchKey": "doors",
+        "children": [
+          {
+            "subTypeCode": "UDL1059141",
+            "subTypeDesc": "Automatic Door",
+            "searchKey": "automatic_door"
+          },
+          {
+            "subTypeCode": "UDL1059142",
+            "subTypeDesc": "Door Handle",
+            "searchKey": "door_handle"
+          },
+          {
+            "subTypeCode": "UDL1059143",
+            "subTypeDesc": "Door Hinges",
+            "searchKey": "door_hinges"
+          },
+          {
+            "subTypeCode": "UDL1059144",
+            "subTypeDesc": "Door Open/Close Issues",
+            "searchKey": "door_open_close_issues"
+          },
+          {
+            "subTypeCode": "UDL1059144",
+            "subTypeDesc": "Door Open Issues",
+            "searchKey": "door_open_issues"
+          },
+          {
+            "subTypeCode": "UDL1059144",
+            "subTypeDesc": "Door Close Issues",
+            "searchKey": "door_close_issues"
+          },
+          {
+            "subTypeCode": "UDL1059145",
+            "subTypeDesc": "Security/Lock Issue",
+            "searchKey": "security_lock_issue"
+          },
+          {
+            "subTypeCode": "UDL1059145",
+            "subTypeDesc": "Security Issue",
+            "searchKey": "security_issue"
+          },
+          {
+            "subTypeCode": "UDL1059145",
+            "subTypeDesc": "Lock Issue",
+            "searchKey": "lock_issue"
+          }
+        ]
+      },
+      {
+        "typeCode": "UDL1059147",
+        "typeDesc": "Electric/Lights",
+        "searchKey": "electric_lights",
+        "children": [
+          {
+            "subTypeCode": "UDL1059148",
+            "subTypeDesc": "Install New Light or Electric Outlet",
+            "searchKey": "install_new_light_or_electric_outlet"
+          },
+          {
+            "subTypeCode": "UDL1059150",
+            "subTypeDesc": "Power Outage - Widespread",
+            "searchKey": "power_outage_widespread"
+          },
+          {
+            "subTypeCode": "UDL1059151",
+            "subTypeDesc": "Repair Light Fixture",
+            "searchKey": "repair_light_fixture"
+          },
+          {
+            "subTypeCode": "UDL1059152",
+            "subTypeDesc": "Replace Bulbs/Grates/Globes",
+            "searchKey": "replace_bulbs_grates_globes"
+          },
+          {
+            "subTypeCode": "UDL1059152",
+            "subTypeDesc": "Replace Bulbs",
+            "searchKey": "replace_bulbs"
+          },
+          {
+            "subTypeCode": "UDL1059152",
+            "subTypeDesc": "Replace Globes",
+            "searchKey": "replace_globes"
+          },
+          {
+            "subTypeCode": "UDL1059152",
+            "subTypeDesc": "Replace Grates",
+            "searchKey": "replace_grates"
+          }
+        ]
+      },
+      {
+        "typeCode": "UDL1059251",
+        "typeDesc": "Waste Removal",
+        "searchKey": "waste_removal",
+        "children": [
+          {
+            "subTypeCode": "UDL1059252",
+            "subTypeDesc": "Confidential Material",
+            "searchKey": "confidential_material"
+          },
+          {
+            "subTypeCode": "UDL1059253",
+            "subTypeDesc": "Empty Trash Can",
+            "searchKey": "empty_trash_can"
+          },
+          {
+            "subTypeCode": "UDL1059254",
+            "subTypeDesc": "Equipment Disposal",
+            "searchKey": "equipment_disposal"
+          },
+          {
+            "subTypeCode": "UDL1059255",
+            "subTypeDesc": "Hazardous Waste Removal",
+            "searchKey": "hazardous_waste_removal"
+          },
+          {
+            "subTypeCode": "UDL1059256",
+            "subTypeDesc": "Medical Waste Removal",
+            "searchKey": "medical_waste_removal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryCode": "UDL1027076",
+    "categoryDesc": "Conference",
+    "searchKey": "conference",
+    "children": [
+      {
+        "typeCode": "UDL1028560",
+        "typeDesc": "A/V Equipment",
+        "searchKey": "a_v_equipment",
+        "children": [
+          {
+            "subTypeCode": "UDL1027078",
+            "subTypeDesc": "Repair",
+            "searchKey": "repair"
+          },
+          {
+            "subTypeCode": "UDL1027421",
+            "subTypeDesc": "Setup",
+            "searchKey": "setup"
+          }
+        ]
+      },
+      {
+        "typeCode": "UDL1028561",
+        "typeDesc": "Booking",
+        "searchKey": "booking",
+        "children": [
+          {
+            "subTypeCode": "UDL1027424",
+            "subTypeDesc": "Room Setup",
+            "searchKey": "room_setup"
+          },
+          {
+            "subTypeCode": "UDL1027424",
+            "subTypeDesc": "Setup",
+            "searchKey": "setup"
+          },
+          {
+            "subTypeCode": "UDL1027425",
+            "subTypeDesc": "Seminar",
+            "searchKey": "seminar"
+          },
+          {
+            "subTypeCode": "UDL1027422",
+            "subTypeDesc": "Classroom",
+            "searchKey": "classroom"
+          }
+        ]
+      },
+      {
+        "typeCode": "UDL1028562",
+        "typeDesc": "Scheduling",
+        "searchKey": "scheduling",
+        "children": [
+          {
+            "subTypeCode": "UDL1027424",
+            "subTypeDesc": "Room Setup",
+            "searchKey": "room_setup"
+          },
+          {
+            "subTypeCode": "UDL1027424",
+            "subTypeDesc": "Setup",
+            "searchKey": "setup"
+          },
+          {
+            "subTypeCode": "UDL1027425",
+            "subTypeDesc": "Seminar",
+            "searchKey": "seminar"
+          },
+          {
+            "subTypeCode": "UDL1027422",
+            "subTypeDesc": "Classroom",
+            "searchKey": "classroom"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryCode": "UDL1027114",
+    "categoryDesc": "Cleaning",
+    "searchKey": "cleaning",
+    "children": [
+      {
+        "typeCode": "UDL1027565",
+        "typeDesc": "Air Vents",
+        "searchKey": "air_vents",
+        "children": [
+          {
+            "subTypeCode": "UDL1027554",
+            "subTypeDesc": "Clean",
+            "searchKey": "clean"
+          }
+        ]
+      },
+      {
+        "typeCode": "UDL1027566",
+        "typeDesc": "Carpets",
+        "searchKey": "carpets",
+        "children": [
+          {
+            "subTypeCode": "UDL1027557",
+            "subTypeDesc": "Shampoo",
+            "searchKey": "shampoo"
+          },
+          {
+            "subTypeCode": "UDL1027558",
+            "subTypeDesc": "Spot Clean",
+            "searchKey": "spot_clean"
+          },
+          {
+            "subTypeCode": "UDL1027560",
+            "subTypeDesc": "Clean",
+            "searchKey": "clean"
+          },
+          {
+            "subTypeCode": "UDL1027559",
+            "subTypeDesc": "Vacuum",
+            "searchKey": "vacuum"
+          }
+        ]
+      },
+      {
+        "typeCode": "UDL1027567",
+        "typeDesc": "Toilet",
+        "searchKey": "toilet",
+        "children": [
+          {
+            "subTypeCode": "UDL1027584",
+            "subTypeDesc": "Clean",
+            "searchKey": "clean"
+          }
+        ]
+      },
+      {
+        "typeCode": "UDL1027568",
+        "typeDesc": "Urinal",
+        "searchKey": "urinal",
+        "children": [
+          {
+            "subTypeCode": "UDL1027585",
+            "subTypeDesc": "Clean",
+            "searchKey": "clean"
+          }
+        ]
+      },
+      {
+        "typeCode": "UDL1027569",
+        "typeDesc": "Waste Removal",
+        "searchKey": "waste_removal",
+        "children": [
+          {
+            "subTypeCode": "UDL1027589",
+            "subTypeDesc": "Equipment Disposal",
+            "searchKey": "equipment_disposal"
+          },
+          {
+            "subTypeCode": "UDL1027589",
+            "subTypeDesc": "Disposal",
+            "searchKey": "disposal"
+          },
+          {
+            "subTypeCode": "UDL1027593",
+            "subTypeDesc": "Trash Pickup",
+            "searchKey": "trash_pickup"
+          },
+          {
+            "subTypeCode": "UDL1027593",
+            "subTypeDesc": "Pickup",
+            "searchKey": "pickup"
+          }
+        ]
+      }
+    ]
+  }
+]

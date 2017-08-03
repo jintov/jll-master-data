@@ -1,0 +1,516 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "JLL Master Data Services",
+        "description": "Microservice for JLL Master Data",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/v1/master/categories": {
+            "get": {
+                "summary": "Get Categories",
+                "description": "Get Categories \n",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Work Order Categories, Types and Sub Types"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of Work Order Types",
+                        "schema": {
+                            "$ref": "#/definitions/response"
+                        }
+                    },
+                    "500": {
+                        "description": "unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/master/categories/{categoryCode}": {
+            "get": {
+                "summary": "Get Work Order Categories for a given Category Code",
+                "description": "Get Work Order Categories for a given Category Code \n",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "categoryCode",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "Work Order Categories, Types and Sub Types"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of Work Order Categories",
+                        "schema": {
+                            "$ref": "#/definitions/response"
+                        }
+                    },
+                    "500": {
+                        "description": "unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/master/categories/{categoryCode}/types": {
+            "get": {
+                "summary": "Get Work Order Types for a given Category Code",
+                "description": "Get Work Order Types for a given Category Code \n",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "categoryCode",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "Work Order Categories, Types and Sub Types"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of Work Order Types",
+                        "schema": {
+                            "$ref": "#/definitions/response"
+                        }
+                    },
+                    "500": {
+                        "description": "unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/master/categories/{categoryCode}/types/{typeCode}": {
+            "get": {
+                "summary": "Get Work Order Types for a given Category Code and Type Code",
+                "description": "Get Work Order Types for a given Category Code and Type Code \n",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "categoryCode",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "typeCode",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "Work Order Categories, Types and Sub Types"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of Work Order Types and Catagories",
+                        "schema": {
+                            "$ref": "#/definitions/response"
+                        }
+                    },
+                    "500": {
+                        "description": "unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/master/categories/{categoryCode}/types/{typeCode}/subtypes": {
+            "get": {
+                "summary": "Get Work Order Sub Types for a given Category Code and Type",
+                "description": "Get Work Order Sub Types for a given Category Code and Type \n",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "categoryCode",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "typeCode",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "Work Order Categories, Types and Sub Types"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of Work Order Sub Types",
+                        "schema": {
+                            "$ref": "#/definitions/response"
+                        }
+                    },
+                    "500": {
+                        "description": "unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/master/categories/{categoryCode}/types/{typeCode}/subtypes/{subTypes}": {
+            "get": {
+                "summary": "Get Work Order Sub Types for a given Category Code, Type Code and SubType Code",
+                "description": "Get Work Order Sub Types for a given Category Code, Type Code and SubType Code \n",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "categoryCode",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "typeCode",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    },
+                    {
+                        "name": "subTypes",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "Work Order Categories, Types and Sub Types"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of Work Order Categories, Types and SubTypes",
+                        "schema": {
+                            "$ref": "#/definitions/response"
+                        }
+                    },
+                    "500": {
+                        "description": "unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/master/tenants": {
+            "get": {
+                "summary": "Get list of Tenants",
+                "description": "Get list of Tenants \n",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Tenants"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of Tenants",
+                        "schema": {
+                            "$ref": "#/definitions/response"
+                        }
+                    },
+                    "500": {
+                        "description": "unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/master/tenants/{tenantCode}": {
+            "get": {
+                "summary": "Get Tenant for a given Tenant Code",
+                "description": "Get Tenant for a given Tenant Code \n",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "tenantCode",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "Tenants"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Tenant details",
+                        "schema": {
+                            "$ref": "#/definitions/response"
+                        }
+                    },
+                    "500": {
+                        "description": "unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/master/priorities": {
+            "get": {
+                "summary": "Get list of Work Order Priorities",
+                "description": "Get list of Work Order Priorities \n",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Work Order Priorities"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of Work Order Priorities",
+                        "schema": {
+                            "$ref": "#/definitions/response"
+                        }
+                    },
+                    "500": {
+                        "description": "unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/master/priorities/{priorityCode}": {
+            "get": {
+                "summary": "Get Work Order Priority for a given Priority Code",
+                "description": "Get Work Order Priority for a given Priority Code \n",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "priorityCode",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "Work Order Priorities"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Work Order Priority details",
+                        "schema": {
+                            "$ref": "#/definitions/response"
+                        }
+                    },
+                    "500": {
+                        "description": "unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+
+        "/api/v1/master/statuses": {
+            "get": {
+                "summary": "Get Status details",
+                "description": "Get Status details \n",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Work Order Statuses"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Status details",
+                        "schema": {
+                            "$ref": "#/definitions/response"
+                        }
+                    },
+                    "500": {
+                        "description": "unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/master/statuses/{statusCode}": {
+            "get": {
+                "summary": "Get Status details for a given Status Code",
+                "description": "Get Status details for a given Status Code \n",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "statusCode",
+                        "in": "path",
+                        "type": "string",
+                        "required": true
+                    }
+                ],
+                "tags": [
+                    "Work Order Statuses"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Status details",
+                        "schema": {
+                            "$ref": "#/definitions/response"
+                        }
+                    },
+                    "500": {
+                        "description": "unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/master/statuses/": {
+            "post": {
+                "summary": "Get Status details for a given set of Status Codes",
+                "description": "Get Status details for a given set of Status Codes \n",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "statusCodes",
+                        "in": "body",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                ],
+                "tags": [
+                    "Work Order Statuses"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of Status details",
+                        "schema": {
+                            "$ref": "#/definitions/response"
+                        }
+                    },
+                    "500": {
+                        "description": "unexpected error",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Error": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "fields": {
+                    "type": "string"
+                }
+            }
+        },
+        "response": {
+            "type": "object",
+            "properties": {
+                "data": {
+                    "type": "object"
+                },
+                "status": {
+                    "type": "object"
+                }
+            }
+        }
+    }
+}

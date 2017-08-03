@@ -1,0 +1,17 @@
+{
+    "codes" : [
+        {
+            "code" : "UDL1022088",
+            "desc" : "Normal"
+        },
+        {
+            "code" : "UDL1022089",
+            "desc" : "Urgent"
+        }
+        ,
+        {
+            "code" : "UDL1022090",
+            "desc" : "Emergency"
+        }
+    ]
+}

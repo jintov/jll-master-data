@@ -1,0 +1,22 @@
+{
+    "codes" : [
+        {
+            "code" : "0064TNT010801",
+            "name" : "San Francisco CBC"
+        },
+        {
+            "code" : "0064TNT012501",
+            "name" : "Grand Rapids CBC"
+        }
+        ,
+        {
+            "code" : "0064TNT015102",
+            "name" : "Philadelphia CBC"
+        }
+        ,
+        {
+            "code" : "0064TNT015701",
+            "name" : "Seattle CBC"
+        }
+    ]
+}
